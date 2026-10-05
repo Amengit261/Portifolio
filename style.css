@@ -58,26 +58,26 @@
     display: flex;
     gap: 20px;
     flex-direction: row;
-
+    margin-top: 50px;
+    position: relative;
+top: 100px;
 }
+    
 #skills{
-    margin-top: 10px;
-
+position: relative;
+top: 100px;
 }
 
 #no{
    font-size: 20px;
 }
-.me{
-    border:solid 1px  rgb(240, 237, 237);
-    width: 400px;
-    height: 200px;
- margin-left: 600px;
-    margin-top: 100px;
-    box-shadow: 2px;
 
-   
-    
+.me-container{
+    position: relative;
+    top: 400px;
+ margin-left: 700px;
+    border: 1px solid rgb(219, 213, 213);
+    box-shadow: 5px 5px 10px gray;;
+    padding-top: 50px;
+   width: 400px;
 }
-
-

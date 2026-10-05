@@ -1,5 +1,6 @@
  body{
-    background-color: rgb(237, 194, 194);
+    background-color: #FFF7FA;
+    color: #3D2C3E;
  }
  
  .nav ul{
@@ -44,9 +45,13 @@
    #cv{
     background-color: brown;
    }
-   .name{
+   .names{
     color: brown;
+    text-align:center ;
+position: relative;
+top: 140px;     
    }
+
 
 .Skill img {
     width: 80px;
@@ -60,13 +65,10 @@
     flex-direction: row;
     margin-top: 50px;
     position: relative;
-top: 100px;
+top: 150px;
 }
     
-#skills{
-position: relative;
-top: 100px;
-}
+
 
 #no{
    font-size: 20px;
@@ -75,9 +77,30 @@ top: 100px;
 .me-container{
     position: relative;
     top: 400px;
- margin-left: 700px;
+    margin-left: 700px;
     border: 1px solid rgb(219, 213, 213);
     box-shadow: 5px 5px 10px gray;;
     padding-top: 50px;
    width: 400px;
+}
+.projects{
+ position: relative;
+    top: 300px;
+    margin-left: 0px;
+    border: 1px solid rgb(219, 213, 213);
+    box-shadow: 5px 5px 10px gray;;
+    padding-top: 50px;
+   width: 400px;
+}
+
+#imge{
+   width: 200px;
+   height:100px ;
+}
+
+   footer {
+    margin-top: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: #a684a8 ;
 }

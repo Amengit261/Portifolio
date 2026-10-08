@@ -68,7 +68,7 @@
         gap: 40px;
     
       }
-  #btn{
+  #ContactBtn{
    background-color: #C77D98;
         width: 120px;
         height: 40px;
@@ -166,5 +166,9 @@ top: 90px;
     margin-top: 400px;
     padding: 20px;
     text-align: center;
-    background-color: #a684a8 ;
+    background-color: #C77D98;
 }
+#contactInfo {
+    display: none;
+}
+

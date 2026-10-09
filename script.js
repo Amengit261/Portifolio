@@ -8,3 +8,15 @@ if (getComputedStyle(contactInfo).display === "none") {
      
 }});
 
+const cvBtn = document.getElementById("cvBtn");
+
+cvBtn.addEventListener("click", function () {
+    const downloadLink = document.createElement("a");
+
+    downloadLink.href = "./cv.pdf";
+    downloadLink.download = "Amen-Girma-CV.pdf";
+
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    downloadLink.remove();
+});

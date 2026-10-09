@@ -62,7 +62,6 @@
   
   }
   .btn{
-     
        align-items: flex-start;
     display: flex;
     margin-left: 270px;
@@ -75,7 +74,7 @@
         width: 120px;
         height: 40px;
    }
-   #cv{
+   #cvBtn{
     background-color:#C77D98; 
    }
    .names{
@@ -171,10 +170,15 @@ top: 90px;
     background-color: #C77D98;
 }
 #contactInfo{
+     color: #C77D98;
     display: none;
       position: absolute;
     margin-left: 430px;
 margin-top: 10px;
+}
+#contactBtn{
+     background-color: #C77D98;
+
 }
 
 

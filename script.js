@@ -13,8 +13,8 @@ const cvBtn = document.getElementById("cvBtn");
 cvBtn.addEventListener("click", function () {
     const downloadLink = document.createElement("a");
 
-    downloadLink.href = "./cv.pdf";
-    downloadLink.download = "Amen-Girma-CV.pdf";
+    downloadLink.href = ".Sisay_Girma_CV";
+    downloadLink.download = "Sisay_Girma_CV";
 
     document.body.appendChild(downloadLink);
     downloadLink.click();
@@ -24,4 +24,5 @@ const themeBtn = document.getElementById("themeBtn");
 themeBtn.addEventListener("click", function(){
 document.body.classList.toggle("dark-mode");
 });
+
 
